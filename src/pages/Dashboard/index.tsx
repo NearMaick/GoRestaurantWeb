@@ -24,13 +24,10 @@ const Dashboard: React.FC = () => {
   const [editingFood, setEditingFood] = useState<IFoodPlate>({} as IFoodPlate);
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     async function loadFoods(): Promise<void> {
-      setLoading(true);
       const response = await api.get('/foods');
-      setLoading(false);
       setFoods(response.data);
     }
 

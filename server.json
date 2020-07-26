@@ -20,8 +20,14 @@
       "name": "Baianesa",
       "price": "15.99",
       "description": "Uma bom prato",
-      "available": true,
       "id": 5
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "name": "Da moda",
+      "price": "5.99",
+      "description": "Uma opção bem barata",
+      "id": 6
     }
   ]
 }
