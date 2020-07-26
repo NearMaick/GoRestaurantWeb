@@ -1,21 +1,6 @@
 {
   "foods": [
     {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Ao molho",
-      "price": "19.90",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas. dfgdfgdf",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
-    },
-    {
       "id": 3,
       "name": "A la Camarón",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
@@ -28,8 +13,15 @@
       "name": "baianinha",
       "price": "8.90",
       "description": "dskfnsçdkfnçseuifjsekjf",
-      "available": true,
       "id": 4
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "name": "Baianesa",
+      "price": "15.99",
+      "description": "Uma bom prato",
+      "available": true,
+      "id": 5
     }
   ]
 }
